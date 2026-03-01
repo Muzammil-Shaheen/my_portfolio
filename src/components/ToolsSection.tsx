@@ -6,22 +6,27 @@ const tools = [
   {
     name: "Auth-Fusion",
     desc: "Authorization flaw verification automation tool",
+    href: "https://github.com/Shaheen404/Auth-Fusion",
   },
   {
     name: "PhishGuard",
     desc: "Intelligent phishing detection engine",
+    href: "https://github.com/Muzammil-Shaheen/PhishGuard",
   },
   {
     name: "PTS",
     desc: "Automated web reconnaissance CLI tool",
+    href: "https://github.com/Muzammil-Shaheen/Pentest_Scraper",
   },
   {
     name: "DirFuzzer",
     desc: "Multi-threaded directory brute-force tool",
+    href: "https://github.com/Muzammil-Shaheen/DirFuzzer",
   },
   {
-    name: "VocalStack",
+    name: "VocalClone",
     desc: "Neural TTS terminal for technical briefings",
+    href: "https://github.com/Shaheen404/VocalClone",
   },
 ];
 
@@ -33,7 +38,7 @@ const ToolsSection = () => {
     <section id="tools" className="py-24 relative z-10">
       <div className="container mx-auto px-4">
         <div className="text-center mb-14">
-          <div className="font-mono text-xs text-primary mb-2">// tools</div>
+          <div className="font-mono text-xs text-primary mb-2">Tools</div>
           <h2 className="text-3xl md:text-4xl font-bold">
             Security Tools Built from an{" "}
             <span className="text-gradient-neon">Attacker's Perspective</span>
@@ -57,7 +62,7 @@ const ToolsSection = () => {
               </div>
               <p className="text-muted-foreground text-sm mb-4">{tool.desc}</p>
               <a
-                href="https://github.com/Shaheen404"
+                href={tool.href}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-1.5 text-xs font-mono text-secondary hover:underline"

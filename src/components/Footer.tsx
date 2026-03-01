@@ -28,7 +28,7 @@ const Footer = () => (
       <div className="flex items-center gap-2">
         <Shield className="w-4 h-4 text-primary" />
         <span className="font-mono text-sm text-muted-foreground">
-          © 2023–2026 Muhammad Muzammil Shaheen. All rights reserved.
+          © 2026 Muhammad Muzammil Shaheen. All rights reserved.
         </span>
       </div>
       <p className="text-xs text-muted-foreground/50 font-mono">
