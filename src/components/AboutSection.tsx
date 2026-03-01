@@ -30,7 +30,7 @@ const AboutSection = () => {
             </p>
             <p>
               Inspired by uncovering logic flaws and breaking misconfigurations, I've since
-              executed <span className="text-primary font-semibold">150+ VAPT engagements</span> across
+              executed <span className="text-primary font-semibold">large-scale VAPT engagements</span> across
               fintech, government, medical, and telecom sectors.
             </p>
             <p className="font-mono text-primary text-sm border-l-2 border-primary pl-4">
