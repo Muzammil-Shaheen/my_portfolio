@@ -45,13 +45,20 @@ const HeroSection = () => {
             <span className="text-gradient-neon">Penetration Tester</span>
             <br />
             <span className="text-foreground text-2xl sm:text-3xl md:text-4xl font-medium mt-2 block">
-              Securing Fintech, SaaS & Enterprise Infrastructure
+              Protecting Fintech, SaaS & Enterprise Infrastructure
             </span>
           </h1>
 
-          <p className="text-muted-foreground text-lg md:text-xl max-w-2xl mx-auto mb-8 font-mono">
-            "I think like an attacker so your business doesn't suffer like a victim."
+          <p className="text-muted-foreground text-lg md:text-xl max-w-2xl mx-auto mb-4 font-mono">
+            "I simulate real-world attacks so your organization stays resilient against them."
           </p>
+
+          {/* Terminal line */}
+          <div className="font-mono text-xs text-primary/60 mb-8 flex items-center justify-center gap-1">
+            <span className="text-secondary">root@shaheen-sec:~$</span>{" "}
+            <span>securing_infrastructure --mode proactive</span>
+            <span className="animate-terminal-blink ml-1">▌</span>
+          </div>
 
           {/* Trust badges */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-10 max-w-3xl mx-auto">

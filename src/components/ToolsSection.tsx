@@ -38,6 +38,9 @@ const ToolsSection = () => {
             Security Tools Built from an{" "}
             <span className="text-gradient-neon">Attacker's Perspective</span>
           </h2>
+          <p className="text-muted-foreground mt-4 text-sm max-w-2xl mx-auto">
+            Custom-built offensive security utilities engineered for precision, automation, and real-world exploitation scenarios.
+          </p>
         </div>
 
         <div ref={ref} className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 max-w-5xl mx-auto">

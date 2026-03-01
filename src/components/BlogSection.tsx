@@ -33,8 +33,8 @@ const BlogSection = () => {
           <h2 className="text-3xl md:text-4xl font-bold">
             Knowledge <span className="text-gradient-neon">Base</span>
           </h2>
-          <p className="text-muted-foreground mt-3 text-sm">
-            Coming soon — insights from the field.
+          <p className="text-muted-foreground mt-3 text-sm max-w-xl mx-auto">
+            Technical insights, case studies, and research drawn from real-world offensive security experience.
           </p>
         </div>
 

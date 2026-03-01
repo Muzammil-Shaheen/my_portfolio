@@ -14,31 +14,37 @@ const services = [
     icon: Globe,
     title: "Web Application Penetration Testing",
     desc: "Manual testing beyond automated scanners. OWASP Top 10, IDOR, business logic flaws — uncovered and remediated.",
+    cta: "Request Web Security Audit",
   },
   {
     icon: Lock,
     title: "API Security Testing",
     desc: "Authentication bypass, rate limit weaknesses, privilege escalation — exposing what scanners miss.",
+    cta: "Request API Assessment",
   },
   {
     icon: Smartphone,
     title: "Android Application Security",
     desc: "SAST/DAST, reverse engineering, traffic interception, and insecure storage analysis.",
+    cta: "Request Mobile Security Review",
   },
   {
     icon: Server,
     title: "Network Security Assessment",
     desc: "Internal & external infrastructure testing with controlled exploitation and detailed reporting.",
+    cta: "Request Infrastructure Audit",
   },
   {
     icon: Bot,
     title: "AI Security Tool Development",
     desc: "Custom Python & AI-based security automation solutions built for real-world attack scenarios.",
+    cta: "Discuss Custom Solution",
   },
   {
     icon: Search,
     title: "SEO & Technical Security Hardening",
     desc: "Search-optimized and security-hardened websites that rank and resist attacks simultaneously.",
+    cta: "Start SEO Optimization",
   },
 ];
 
@@ -78,7 +84,7 @@ const ServicesSection = () => {
                 href="#contact"
                 className="inline-flex items-center text-xs font-mono text-primary hover:underline"
               >
-                Request Audit →
+                {service.cta} →
               </a>
             </motion.div>
           ))}

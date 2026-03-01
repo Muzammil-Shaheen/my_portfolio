@@ -34,8 +34,8 @@ const ContactSection = () => {
 
           <div className="relative z-10">
             <h2 className="text-2xl md:text-4xl font-bold text-center mb-3">
-              Before Hackers Exploit Your Infrastructure —{" "}
-              <span className="text-gradient-neon">Let's Secure It.</span>
+              Before Attackers Find the Weakness —{" "}
+              <span className="text-gradient-neon">Let's Fix It.</span>
             </h2>
 
             <div className="flex flex-col sm:flex-row gap-3 justify-center mt-6 mb-12">
@@ -85,6 +85,14 @@ const ContactSection = () => {
                   <option value="ai" className="bg-card">AI Security Tools</option>
                   <option value="seo" className="bg-card">SEO Optimization</option>
                 </select>
+                <select
+                  className="glass-card rounded-lg px-4 py-3 text-sm text-muted-foreground focus:outline-none focus:ring-1 focus:ring-primary bg-transparent"
+                >
+                  <option value="" className="bg-card">Budget Range</option>
+                  <option value="startup" className="bg-card">Startup-Friendly</option>
+                  <option value="mid" className="bg-card">Mid-Level Project</option>
+                  <option value="enterprise" className="bg-card">Enterprise Engagement</option>
+                </select>
                 <textarea
                   placeholder="Brief description of your security needs..."
                   rows={4}
@@ -104,6 +112,9 @@ const ContactSection = () => {
                     )}
                   </button>
                 </div>
+                <p className="md:col-span-2 text-center text-xs text-muted-foreground/60 font-mono">
+                  Confidentiality Guaranteed. Responsible Disclosure & Ethical Testing Only.
+                </p>
               </form>
             </div>
           </div>
