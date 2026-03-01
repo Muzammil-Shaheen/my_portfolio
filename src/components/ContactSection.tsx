@@ -34,8 +34,8 @@ const ContactSection = () => {
 
           <div className="relative z-10">
             <h2 className="text-2xl md:text-4xl font-bold text-center mb-3">
-              Before Hackers Exploit Your Infrastructure —{" "}
-              <span className="text-gradient-neon">Let's Secure It.</span>
+              Before Attackers Find the Weakness —{" "}
+              <span className="text-gradient-neon">Let's Fix It.</span>
             </h2>
 
             <div className="flex flex-col sm:flex-row gap-3 justify-center mt-6 mb-12">
