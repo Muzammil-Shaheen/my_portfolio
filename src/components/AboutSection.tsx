@@ -14,25 +14,21 @@ const AboutSection = () => {
           initial={{ opacity: 0, y: 40 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.7 }}
-          className="max-w-3xl mx-auto"
+          className="max-w-4xl mx-auto" // Increased max-width slightly for better visual balance
         >
-          <div className="font-mono text-xs text-primary mb-2">About</div>
-          <h2 className="text-3xl md:text-4xl font-bold mb-8">
+          <div className="font-mono text-sm text-primary mb-2">About</div>
+          <h2 className="text-4xl md:text-5xl font-bold mb-10">
             From Curiosity to{" "}
             <span className="text-gradient-neon">Controlled Exploitation</span>
           </h2>
 
-          <div className="glass-card rounded-xl p-6 md:p-8">
-            <div className="flex flex-col md:flex-row gap-6 items-start">
-              <img
-                src="/assets/profile.jpg"
-                alt="Muhammad Muzammil Shaheen"
-                className="w-36 h-36 rounded-xl object-cover shrink-0 border border-primary/30 shadow-[0_0_16px_hsl(190_100%_50%/0.15)]"
-              />
-              <div className="space-y-4 text-muted-foreground leading-relaxed">
+          <div className="glass-card rounded-xl p-8 lg:p-10">
+            <div className="flex flex-col gap-6 items-start">
+              {/* Increased text size and line height for readability */}
+              <div className="space-y-6 text-foreground/80 text-lg leading-relaxed">
                 <p>
                   I began my cybersecurity journey in 2023 as a penetration tester, driven by a
-                  fascination with how systems fail — and how they can be fortified before
+                  fascination with how systems fail and how they can be fortified before
                   attackers strike.
                 </p>
                 <p>
@@ -40,7 +36,7 @@ const AboutSection = () => {
                   executed <span className="text-primary font-semibold">large-scale VAPT engagements</span> across
                   fintech, government, medical, and telecom sectors.
                 </p>
-                <p className="font-mono text-primary text-sm border-l-2 border-primary pl-4">
+                <p className="font-mono text-primary text-xl border-l-4 border-primary pl-6 py-1">
                   "Exploit code, not people."
                 </p>
                 <p>

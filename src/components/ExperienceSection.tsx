@@ -17,9 +17,9 @@ const ExperienceSection = () => {
   return (
     <section id="experience" className="py-24 relative z-10">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-14">
-          <div className="font-mono text-xs text-primary mb-2">// experience</div>
-          <h2 className="text-3xl md:text-4xl font-bold">
+        <div className="text-center mb-16">
+          <div className="font-mono text-sm text-primary mb-2">Experience</div>
+          <h2 className="text-4xl md:text-5xl font-bold">
             Professional <span className="text-gradient-neon">Experience</span>
           </h2>
         </div>
@@ -29,31 +29,31 @@ const ExperienceSection = () => {
           initial={{ opacity: 0, y: 40 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.7 }}
-          className="max-w-2xl mx-auto glass-card rounded-xl p-6 md:p-8 neon-border"
+          className="max-w-3xl mx-auto glass-card rounded-xl p-8 lg:p-10 neon-border"
         >
-          <div className="flex items-start gap-4 mb-6">
-            <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
-              <Briefcase className="w-6 h-6 text-primary" />
+          <div className="flex items-center gap-6 mb-8">
+            <div className="w-16 h-16 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
+              <Briefcase className="w-8 h-8 text-primary" />
             </div>
             <div>
-              <h3 className="text-xl font-bold text-foreground">Penetration Tester</h3>
-              <p className="text-primary font-mono text-sm">Zerox Innovation Pvt Ltd</p>
-              <p className="text-muted-foreground text-xs font-mono mt-1">
+              <h3 className="text-2xl font-bold text-foreground">Penetration Tester</h3>
+              <p className="text-primary font-mono text-lg">Zerox Innovation Pvt Ltd</p>
+              <p className="text-muted-foreground text-sm font-mono mt-1">
                 July 2024 – Present
               </p>
             </div>
           </div>
 
-          <ul className="space-y-3">
+          <ul className="space-y-4">
             {highlights.map((item) => (
-              <li key={item} className="flex items-start gap-3 text-sm text-muted-foreground">
-                <CheckCircle className="w-4 h-4 text-primary flex-shrink-0 mt-0.5" />
+              <li key={item} className="flex items-start gap-4 text-base text-foreground/80 leading-relaxed">
+                <CheckCircle className="w-6 h-6 text-primary flex-shrink-0 mt-0.5" />
                 {item}
               </li>
             ))}
           </ul>
 
-          <p className="text-xs text-muted-foreground/50 font-mono mt-6 italic">
+          <p className="text-sm text-muted-foreground/60 font-mono mt-8 italic">
             * Confidential client names are not disclosed.
           </p>
         </motion.div>
