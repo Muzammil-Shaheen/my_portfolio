@@ -45,7 +45,7 @@ const HeroSection = () => {
             <span className="text-gradient-neon">Penetration Tester</span>
             <br />
             <span className="text-foreground text-2xl sm:text-3xl md:text-4xl font-medium mt-2 block">
-              Protecting Fintech, SaaS & Enterprise Infrastructure
+              Protecting Fintech, Ecommerce & Vulnerable Infrastructure
             </span>
           </h1>
 

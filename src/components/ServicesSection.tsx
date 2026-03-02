@@ -56,7 +56,7 @@ const ServicesSection = () => {
     <section id="services" className="py-24 relative z-10">
       <div className="container mx-auto px-4">
         <div className="text-center mb-14">
-          <div className="font-mono text-xs text-primary mb-2">// services</div>
+          <div className="font-mono text-xs text-primary mb-2">Services</div>
           <h2 className="text-3xl md:text-4xl font-bold">
             Offensive Security <span className="text-gradient-neon">Services</span>
           </h2>
